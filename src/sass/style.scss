@@ -1,10 +1,15 @@
-@import '/src/sass/base/variables';
+@import 'base/variables';
+@import 'base/media';
 * {
     font-family: 'Museo Sans Cyrl', sans-serif;
 }
+.container {
+    max-width: 950px;
+    margin: 0 auto;
+}
 
-@import '/src/sass/blocks/promo';
-@import '/src/sass/blocks/header';
-@import '/src/sass/blocks/buttons';
-@import '/src/sass/blocks/advantages';
-@import '/src/sass/blocks/titles';
+@import 'blocks/promo';
+@import 'blocks/header';
+@import 'blocks/buttons';
+@import 'blocks/advantages';
+@import 'blocks/titles';
